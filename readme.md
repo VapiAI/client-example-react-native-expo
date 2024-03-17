@@ -90,7 +90,7 @@ This starter template is designed to help you quickly integrate Vapi into your r
         ]
     ]
 }
-
+```
 4. prepare expo build `npx expo prebuild`
 
 5. Install iOS pods with `npx pod-install`
