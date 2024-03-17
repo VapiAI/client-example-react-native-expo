@@ -15,16 +15,39 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "co.vapi.DailyPlayground",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "voip"
+        ]
+      },
+      "bitcode": false
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "co.vapi.DailyPlayground"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     }
-  }
+  },
+  "plugins": [
+    "@config-plugins/react-native-webrtc",
+    "@daily-co/config-plugin-rn-daily-js",
+    [
+      "expo-build-properties",
+      {
+        "android": {
+          "minSdkVersion": 24
+        },
+        "ios": {
+          "deploymentTarget": "13.4"
+        }
+      }
+    ]
+  ]
 }
