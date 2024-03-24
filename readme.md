@@ -51,6 +51,7 @@ This starter template is designed to help you quickly integrate Vapi into your r
 
 3. Update app.json
 
+
 ```
 {
     "expo": {
