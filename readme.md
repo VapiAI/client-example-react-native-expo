@@ -39,7 +39,7 @@ This starter template is designed to help you quickly integrate Vapi into your r
 
 2. Add new dependencies to your package.json with exact version as showing below
 ```
-"@vapi-ai/react-native": "^0.1.3",
+"@vapi-ai/react-native": "^0.1.5",
 "@config-plugins/react-native-webrtc": "7.0.0",
 "@daily-co/config-plugin-rn-daily-js": "0.0.3",
 "@daily-co/react-native-daily-js": "0.49.0",
