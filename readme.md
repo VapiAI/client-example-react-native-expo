@@ -33,8 +33,8 @@ This starter template is designed to help you quickly integrate Vapi into your r
 
 1. update your current existing dependencies in package.json to the exact version as showing below
 ```
-"expo": "^49",
-"react-native": "0.72.10",
+"expo": "^50",
+"react-native": "0.73.6",
 ```
 
 2. Add new dependencies to your package.json with exact version as showing below
