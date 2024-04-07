@@ -31,19 +31,20 @@ This starter template is designed to help you quickly integrate Vapi into your r
 
 ## To add Vapi to your existing react native expo project
 
-1. update your current existing dependencies in package.json to the exact version as showing below
+
+3. update your current existing dependencies in package.json to the exact version as showing below
 ```
 "expo": "^50",
-"react-native": "0.73.6",
+"react-native": "^0.73.6",
 ```
 
 2. Add new dependencies to your package.json with exact version as showing below
 ```
 "@vapi-ai/react-native": "^0.1.6",
-"@config-plugins/react-native-webrtc": "7.0.0",
-"@daily-co/config-plugin-rn-daily-js": "0.0.3",
-"@daily-co/react-native-daily-js": "0.49.0",
-"@daily-co/react-native-webrtc": "111.0.0-daily.2",
+"@config-plugins/react-native-webrtc": "8.0.0",
+"@daily-co/config-plugin-rn-daily-js": "0.0.4",
+"@daily-co/react-native-daily-js": "0.59.0",
+"@daily-co/react-native-webrtc": "118.0.3-daily.1",
 "@react-native-async-storage/async-storage": "^1.22.3",
 "react-native-background-timer": "^2.4.1",
 "react-native-get-random-values": "^1.11.0",
